@@ -51,7 +51,7 @@ def test_6(sample_orders):
 # 測試7
 def test_7(sample_orders):
     assert calculate_average_order_value(sample_orders) == 650  # 1950 / 3
-
+     
 # 測試8
 def test_8(sample_orders):
     for order in sample_orders:

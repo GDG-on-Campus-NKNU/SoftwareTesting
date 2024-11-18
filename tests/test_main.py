@@ -1,6 +1,8 @@
-# test_main.py
+﻿# test_main.py
 import pytest
 from main import main
+
+# 雖然課程沒有提到，但這樣子的做法是系統測試
 
 def test_main_output(capsys):
     main()

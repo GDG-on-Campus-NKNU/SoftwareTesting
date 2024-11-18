@@ -12,3 +12,7 @@ def main():
         print(summary)
     print(f"Total Revenue: ${report['total_revenue']}")
     print(f"Highest Value Order: {report['highest_value_order']}")
+
+
+if __name__ == "__main__":
+    main()
